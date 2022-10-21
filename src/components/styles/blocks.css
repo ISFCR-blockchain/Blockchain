@@ -1,0 +1,27 @@
+textarea
+{
+    border: none;
+
+}
+
+.main
+{
+    background-color: #f5f5f5;
+}
+
+.addblock-form > legend
+{
+    width: auto;
+    margin-left: 10%;  
+}
+
+.addblock-form > textarea
+{
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+}
+.addblock-form > button
+{
+    width: 80%;
+    top: 20px;
+}

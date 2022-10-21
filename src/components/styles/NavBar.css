@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.navbar-nav
+{
+  padding: 10px;
+  margin-left: auto; 
+  margin-right: 5%;
+  color: black;
+  margin-top:3.5px;
+  font-size: 1.2rem;
+}
+
+.nav-item>button{
+  border: none;
+  background-color: inherit;
+}
+@media screen and (max-width: 1400px){
+  .navbar-nav
+  {
+  padding: 10px;
+  margin-left: 5%; 
+  margin-right: 5%;
+  color: black;
+}
+.navbar
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.navbar-toggler
+{
+  margin-right: 5%;
+}
+.navbar-nav > li
+{
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  
+}
+.navbar-nav > a
+{
+  text-decoration: none;
+  font: 16px;
+  color: black;
+  
+}
+
+.navbar-brand
+{
+  margin-left: 5%;
+}
+
+.navbar-nav > .nav-item
+{
+  color:black;
+}
+
+.nav-wrapper
+{
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-color: #101010;
+}
+
+.brand-logo,
+.nav-mobile,
+.nav-mobile{
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+  }
+  
+body{
+  margin: 0;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 90px; */
+  /* padding: 25px; */
+  color: white;
+}
+
+.app-name{
+  margin-left: 200px;
+  display: flex;
+  padding: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav-elements{
+  font-size: 20px;
+  display: flex;
+  padding: 10px;
+ 
+  align-items: center;
+  justify-content: center;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.nav-elements > li{
+  padding: 20px;
+  color:white;
+  text-decoration: none;
+}
+
+.nav-btn{
+  background-color: #21222A;
+  color: white;
+  border: none;
+  margin: 20px;
+}
+
+.form-group
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+
+.d-grid
+{
+    width:100%;
+    margin-top: 30px;
+    
+}
+
+.d-grid > a{
+  margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+.btn > h1{
+  font-size: medium;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+.forgot-password
+{
+    margin-left: 37%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.form-check
+{
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+
+.sign-title > h1{
+    width: auto;
+    /*margin-left: 50%;
+    margin-bottom: 30px;*/
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Nunito", Sans-serif;
+    
+    font-size: 2rem;
+    color: var(--dark-primary);;
+    
+    font-weight: 100;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    margin-bottom: 8%;
+}
+.sign-title > h1{
+  width: auto;
+  margin-left: 50%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  transform:translate(-50%,1%);
+}
+
+
+
+.sign-background 
+
+{
+  height: 700px;
+  display: flex; 
+  flex-direction: row;
+  /*background:#f5f5ff;*/
+}
+
+
+
+.sign-image > img{
+  margin-top: 100px;
+  margin-bottom: auto;
+  width: 420px;
+  height: 400px;
+  z-index: 1;
+}
+
+.signIn{
+    top:20%;
+    left:50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    transform: translateY(20%);
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 0.5rem;
+    background-color: inherit;
+    opacity: 0.9;
+}
+
+.signUp
+{
+    top:20%;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    /*transform: translate(100%,8%);*/
+    height: 525px;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 0.5rem;
+    background-color: white;
+    opacity: 0.9;
+
+}
+.signup-div{
+  width: 60%;
+}
+.sign-in
+{
+    margin-top: 20px;
+    margin-left: 30%; 
+}
+
+.wallet-container{
+  position: relative;
+  height: 500px;
+  width: 500px;
+  border: 5px solid #21222A;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+
+.block{
+  margin: 10px;
+}
+
+
+.blockchain{
+  top: 50%;
+  left: 50%;
+  display: flex;
+  margin:10px;
+}
+
+@media screen and (max-width:920px)
+{
+  .sign-background{
+    flex-direction: column;
+    left:0px;
+  }
+  .signup-div{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sign-image{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

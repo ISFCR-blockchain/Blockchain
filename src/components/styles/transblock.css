@@ -1,0 +1,19 @@
+.trans-block
+{   
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+table {width: 100%;}
+td
+{
+ max-width: 0;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+}
+td.column_a {width: 30%;}
+td.column_b {width: 70%;}

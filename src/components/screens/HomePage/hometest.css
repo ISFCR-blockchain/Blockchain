@@ -1,0 +1,123 @@
+
+.custom-shape-divider-top-1658674033 {
+    position: relative;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1658674033 img {
+    position: relative;
+    display: block;
+    min-height: 169px;
+    padding-top: 5px;
+}
+
+
+
+.custom-shape-divider-top-1658674033 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: (3,1fr);
+    margin-top: 5%;
+    margin-bottom: 8.5%;
+    /* margin-left:11%; */
+    /* margin-right: auto; */
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width:1300px)
+{
+    .features{
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding-top: 2rem;
+    
+}
+    .feature
+    {
+        width: 300px;
+        box-shadow: 1rem;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 40px 40px 40px 40px;
+
+    }
+}
+
+.feature
+{
+    width: 350px;
+    box-shadow: 1rem;
+    height: 300px;  
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 3px 40px rgb(36 36 36 / 10%);
+    padding: 40px 40px 40px 40px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.feature > h1{
+    
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.2rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.feature > hr{
+    width: 90px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feature > span{
+    width: 100%;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: large;
+    text-align: right;
+}
+
+.icons
+{   
+    text-align: center; 
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.feature-heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;   
+    text-align: center;
+    margin-top: 100px;
+}
+
+.feature-heading > h1{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-size: 72px;
+    color: var(--dark-primary);
+    letter-spacing: 5px;
+    font-weight: 700;
+}
