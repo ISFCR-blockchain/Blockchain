@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepgae": "https://isfcr-blockchain.github.io/Blockchain.github.io/"
   "version": "0.1.0",
   "private": true,
   "dependencies": {
