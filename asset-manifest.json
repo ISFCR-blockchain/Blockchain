@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Blockchain/static/css/main.07aeea66.css",
-    "main.js": "/Blockchain/static/js/main.c167359b.js",
+    "main.js": "/Blockchain/static/js/main.d3c55e40.js",
     "static/js/787.cda612ba.chunk.js": "/Blockchain/static/js/787.cda612ba.chunk.js",
     "static/media/girl-block.jpg": "/Blockchain/static/media/girl-block.fd1c3b5f00a263f5f4ab.jpg",
     "static/media/Nunito-Bold.woff": "/Blockchain/static/media/Nunito-Bold.96c334093cfb13c7391f.woff",
@@ -13,11 +13,11 @@
     "static/media/arrow.svg": "/Blockchain/static/media/arrow.6e8a628becfebae21c66355467879e0d.svg",
     "index.html": "/Blockchain/index.html",
     "main.07aeea66.css.map": "/Blockchain/static/css/main.07aeea66.css.map",
-    "main.c167359b.js.map": "/Blockchain/static/js/main.c167359b.js.map",
+    "main.d3c55e40.js.map": "/Blockchain/static/js/main.d3c55e40.js.map",
     "787.cda612ba.chunk.js.map": "/Blockchain/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07aeea66.css",
-    "static/js/main.c167359b.js"
+    "static/js/main.d3c55e40.js"
   ]
 }
