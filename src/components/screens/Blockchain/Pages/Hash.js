@@ -9,7 +9,7 @@ export default function Hash() {
     <>
       {/* <AppBarStyle valid= {false}/> */}
       <Main>
-      <BlockBar/>
+      {/* <BlockBar/> */}
       <br/>
         <h3>Hash</h3>
         

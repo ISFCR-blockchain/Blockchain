@@ -10,7 +10,7 @@ export default function BlockPage() {
     <>
       {/* <AppBarStyle valid= {false}/> */}
       <Main>
-      <BlockBar/>
+      {/* <BlockBar/> */}
         <br />
         <h3>Block</h3>
       </Main>

@@ -9,23 +9,40 @@ import MinerChain from './components/screens/Blockchain/Pages/Miner'
 import BlockPage from "./components/screens/Blockchain/Pages/Block";
 import BlockchainPage from "./components/screens/Blockchain/Pages/Blockchain";
 import DistributedChain from "./components/screens/Blockchain/Pages/DistributedChain";
+import Miner from './components/screens/Blockchain/MinerChain';
+import Box from '@mui/material/Box';
+import Tab from '@mui/material/Tab';
+import TabContext from '@mui/lab/TabContext';
+import TabList from '@mui/lab/TabList';
+import TabPanel from '@mui/lab/TabPanel';
 
 
 function App() {
-  return (
-    <>
-      {/* <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path='/hash' element={<Hash />}></Route>
-        <Route exact path='/block' element={<BlockPage />}></Route>
-        <Route path='/blockchain' element={<BlockchainPage />}></Route>
-        <Route path='/distributed' element={<DistributedChain />}></Route>
-        <Route path='/miner' exact element={<MinerChain />}></Route>
-      </Routes> */}
+  const [value, setValue] = React.useState('1');
 
-      <Home />
-      
-    </>
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
+  return (
+    <Box sx={{ width: '100%', typography: 'body1' }}>
+      <TabContext value={value}>
+        <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+          <TabList onChange={handleChange} aria-label="lab API tabs example">
+            <Tab label="Hash" value="1" />
+            <Tab label="Block" value="2" />
+            <Tab label="Blockchaiin" value="3" />
+            <Tab label="Distributed" value="4" />
+            <Tab label="Miner" value="5" />
+          </TabList>
+        </Box>
+        <TabPanel value="1"><Hash/></TabPanel>
+        <TabPanel value="2"><BlockPage/></TabPanel>
+        <TabPanel value="3"><BlockchainPage/></TabPanel>
+        <TabPanel value="4"><DistributedChain/></TabPanel>
+        <TabPanel value="5"><MinerChain/></TabPanel>
+      </TabContext>
+    </Box>
   );
 }
 

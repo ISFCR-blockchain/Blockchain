@@ -7,7 +7,7 @@ export default function MinerChain() {
   return (
     <>
       <Main>
-      <BlockBar/>
+      {/* <BlockBar/> */}
         <br/>
         <h3>Mining</h3>
       </Main>

@@ -10,7 +10,7 @@ export default function DistributedChain() {
     <>
       {/* <AppBarStyle valid= {false}/> */}
       <Main>
-      <BlockBar/>
+      {/* <BlockBar/> */}
         <br/>
         <h3>Distributed Blockchain</h3>
       </Main>

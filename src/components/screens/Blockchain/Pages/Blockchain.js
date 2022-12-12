@@ -9,7 +9,7 @@ export default function BlockchainPage() {
     <>
       {/* <AppBarStyle valid= {false}/> */}
       <Main>
-      <BlockBar/>
+      {/* <BlockBar/> */}
         <br/>        
         <h3>Blockchain</h3>
       </Main>
