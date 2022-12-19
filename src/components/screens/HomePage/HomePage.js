@@ -17,7 +17,7 @@ export const AppBarStyled = styled.div`
   
 }`
 ;
-export default function Home(){
+export default function Home(props){
     return(
         <>
             <div className="HomePage">
@@ -34,7 +34,7 @@ export default function Home(){
                             <div className="left-text-container">
                                 <h1>BLOCKCHAIN</h1>
                                 <h2>Future Technology</h2>
-                                <Secondarybutton name={"Let's Begin"}/>
+                                <Secondarybutton  begin={props.begin} name={"Let's Begin"}/>
                             </div>
                         </div>
                     </HeaderContentStyled>

@@ -18,24 +18,29 @@ import TabPanel from '@mui/lab/TabPanel';
 
 
 function App() {
-  const [value, setValue] = React.useState('1');
+  const [value, setValue] = React.useState('0');
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
+  };
+  const begin = (event, newValue) => {
+    setValue("1");
   };
 
   return (
     <Box sx={{ width: '100%', typography: 'body1' }}>
       <TabContext value={value}>
-        <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-          <TabList onChange={handleChange} aria-label="lab API tabs example">
+        <Box sx={{ borderBottom: 1, borderColor: 'divider'}}>
+          <TabList onChange={handleChange} aria-label="lab API tabs example" centered>
+            <Tab label="Home" value="0"/>
             <Tab label="Hash" value="1" />
             <Tab label="Block" value="2" />
-            <Tab label="Blockchaiin" value="3" />
+            <Tab label="Blockchain" value="3" />
             <Tab label="Distributed" value="4" />
             <Tab label="Miner" value="5" />
           </TabList>
         </Box>
+        <TabPanel value="0"><Home begin={begin}/></TabPanel>
         <TabPanel value="1"><Hash/></TabPanel>
         <TabPanel value="2"><BlockPage/></TabPanel>
         <TabPanel value="3"><BlockchainPage/></TabPanel>

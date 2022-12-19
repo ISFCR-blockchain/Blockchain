@@ -4,14 +4,16 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import arrow from '../../../img/arrow.svg';
 import './home.css';
-function Secondarybutton({name}) {
+function Secondarybutton(props) {
     return (
+        <a onClick={props.begin}>
         <SecondaryButtonStyled>
            
-            <div classname='but'>
-            <a href="/signup"> {name}</a>
+            <div classname='but' onClick={props.begin}>
+             {props.name}
             </div> 
         </SecondaryButtonStyled>
+        </a>
     )
 }
 
